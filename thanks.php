@@ -49,8 +49,7 @@
                 echo "- Message";
                 echo "<br>";
             }
-        }
-            else {
+        } else {
             echo "Merci $user_surname $user_lastname de nous avoir contacté à propos de $user_subject.";
             echo "<br>";
             echo "<br>";
@@ -58,7 +57,7 @@
             echo "<br>";
             echo "<br>";
             echo "$user_message";
-            }
+        }
     }
     ?>
 </body>
